@@ -23,10 +23,10 @@ public class ModContent
 		foodJournal = new ItemFoodJournal();
 		event.getRegistry().register(foodJournal);
 
-		lunchBox = new ItemFoodContainer(ModConfig.ITEM_LUNCH_BOX_NAME, 6);
+		lunchBox = new ItemFoodContainer(ModConfig.ITEM_LUNCH_BOX_NAME, ModConfig.FOOD_CONTAINERS_LUNCH_BOX_SIZE);
 		event.getRegistry().register(lunchBox);
 
-		lunchBag = new ItemFoodContainer(ModConfig.ITEM_LUNCH_BAG_NAME, 3);
+		lunchBag = new ItemFoodContainer(ModConfig.ITEM_LUNCH_BAG_NAME, ModConfig.FOOD_CONTAINERS_LUNCH_BAG_SIZE);
 		event.getRegistry().register(lunchBag);
 	}
 
